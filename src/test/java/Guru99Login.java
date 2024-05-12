@@ -32,6 +32,8 @@ public class Guru99Login {
         WebElement loginSuccessMessage = driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td/h3"));
         Assert.assertTrue(loginSuccessMessage.isDisplayed());
 
+        //For demo purpose
+
     }
 
     @AfterMethod
