@@ -18,7 +18,7 @@ public class Guru99Login {
 
     @Test
     public void loginTest(){
-        //Enter user name
+        //Enter username
         WebElement userIDTextField = driver.findElement(By.name("userName"));
         userIDTextField.sendKeys("test");
         //Enter password
