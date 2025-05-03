@@ -17,7 +17,7 @@ public class HomePageTests {
 
     @Test(priority = 1, groups = "Smoke Test")
     public void validateMercuryPageTitle(){
-
+        // This is my change in remote
         String actualMercuryPageTile = driver.getTitle();
         String expectedMercuryPageTitle = "Welcome: Mercury Tours";
         //Validate Page Title
