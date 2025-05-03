@@ -19,6 +19,7 @@ public class HomePageTests {
     public void validateMercuryPageTitle(){
 
         String actualMercuryPageTile = driver.getTitle();
+        // This is my local change
         String expectedMercuryPageTitle = "Welcome: Mercury Tours";
         //Validate Page Title
         Assert.assertEquals(actualMercuryPageTile,expectedMercuryPageTitle);
