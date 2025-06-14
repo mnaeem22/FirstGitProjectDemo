@@ -23,7 +23,7 @@ public class Guru99Login {
         //Enter my username from local repository
         WebElement userIDTextField = driver.findElement(By.name("userName"));
         userIDTextField.sendKeys("test");
-        //Enter password
+        //Enter password from remote
         WebElement passwordTextField = driver.findElement(By.name("password"));
         passwordTextField.sendKeys("test");
         //Click Submit button
